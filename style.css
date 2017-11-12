@@ -1,0 +1,102 @@
+
+@font-face { font-family: "Univers"; src: url("../fonts/Univers.otf"); }
+
+@font-face { font-family: "FoundersGroteskMonoTest-Light"; src: url("../fonts/FoundersGroteskMonoTest-Light.otf"); }
+
+
+
+body {
+	font-family: "FoundersGroteskMonoTest-Light", sans-serif;	color: "#000000";
+	margin: 0;
+	cursor: crosshair;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,24c6e2+100,7db9e8+100,207cca+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 100%, #ffffff 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 100%,#ffffff 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 100%,#ffffff 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	font-style: "FoundersGroteskMonoTest-Light";
+	text-align: left;
+	text-rendering: optimizeLegibility;	
+	text-decoration: none;
+	color: black;
+	pointer-events: auto;
+
+}
+
+.title {
+	font-weight: normal;
+	text-shadow: 0 0 5px #00ff26;
+	color: black;
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 75%;
+	font-size: 25px;
+	line-height: 1.05em;
+	font-style: "FoundersGroteskMonoTest-Light";
+	text-align: left;
+	text-rendering: optimizeLegibility;	
+
+}
+
+.title1 {
+	font-weight: lighter;
+	text-shadow: 0 0 5px #00ff26;
+	margin-left: 1%;
+	width: 75%;
+	font-size: 25px;
+	line-height: 1.05em;
+	font-style: "FoundersGroteskMonoTest-Light";
+	text-align: left;
+	text-rendering: optimizeLegibility;	
+
+}
+
+.title_extended {
+	font-size: 4.5em;
+	line-height: 1.0em;
+	font-style: "FoundersGroteskMonoTest-Light";
+	text-align: left;
+	text-rendering: optimizeLegibility;	
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+
+.title_con_bold {
+	font-size: 4.5em;
+	line-height: 1.0em;
+	font-style: "FoundersGroteskMonoTest-Light";
+	text-align: left;
+	text-rendering: optimizeLegibility;	
+
+}
+
+.gallery {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#container {
+	
+}
+
+img{
+	z-index: 5;
+
+	cursor: move;
+	cursor: -webkit-grab; 
+	cursor: -moz-grab;	
+
+} 
+
+
